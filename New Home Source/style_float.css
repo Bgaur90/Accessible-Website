@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/tbg0bjt.css");
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: muli, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+}
+
+header {
+    background-color: #fff;
+}
+
+nav {
+    max-width: 1144px;
+    width: 100%;
+    padding: 15px;
+}
+
+.menu-items {
+    list-style: none;
+    float: right;
+}
+
+
+.menu-items li {
+    float: left;
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.login-button {
+    border: 1px solid #010101;
+    background-color: #fff;
+}
+
+.logout-button {
+    border: 1px solid #f58220;
+    background-color: #f58220;
+    border: none;
+    color: #fff;
+}
+
+.menu-items li a:hover {
+    text-decoration: underline;
+}
